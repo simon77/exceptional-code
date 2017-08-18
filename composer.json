@@ -1,0 +1,26 @@
+{
+    "name": "simon77/headfirst",
+    "description": "PHP rewrites of Head First Design Pattern example code",
+    "type": "library",
+    "keywords": [
+        "head first"
+    ],
+    "authors": [
+        {
+            "name": "Simon Lewis",
+            "email": "simon_lewis77@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+	"phpunit/phpunit": "*",
+	"sebastian/version": "~1.0",
+        "mockery/mockery": "dev-master@dev",
+        "monolog/monolog": "~1.11"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    }
+}
